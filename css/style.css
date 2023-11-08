@@ -84,6 +84,7 @@
 #contenitoregenerale_about{
     height: 500px;
     background-color: #1ABC9C;
+    margin-bottom: 40px;
 }
 
 .sottocont_about{
@@ -114,6 +115,35 @@
 #my_download{
     height: 130px;
     background-color: lightslategray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 250px;
+    background-color: #3A546D;
+    display: flex;
+    align-items: center;
+}
+
+
+footer div{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+footer div h2{
+    color: #fff;
+}
+
+#copyeight{
+    background-color: #2C3E50;
+    height: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
