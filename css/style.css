@@ -21,12 +21,101 @@
 
 .my-color-main{
     background-color: #1ABC9C;
-    height: 600px;
+    min-height: 500px;
+}
+
+.my_color_debug{
+    min-height: 300px;
+    width: 500px;
+    background-color: #fff;
 }
 
 .my_flex{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+}
+.padding{
+    padding:10px 10px;
 }
 
+.container-caord{
+    height: 650px;
+    width: 100%;
+    background-color: #fff;
+}
+
+#sottocont-card{
+    width: 70%;
+    margin: 0 auto;
+    background-color: violet;
+    padding: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#scritta-portfolio, #scritta-about{
+    height: 120px;
+    width: 100%;
+    background-color:brown;
+}
+.my_center{
+    margin: 0 auto;
+}
+
+#my_cont-button{
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    background-color: lightcoral;
+    padding: 35px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    border: solid 2px;
+    margin-left: 35px;
+}
+
+
+#contenitoregenerale_about{
+    height: 500px;
+    background-color: #1ABC9C;
+}
+
+.sottocont_about{
+    height: 100%;
+    background-color: #fff;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.my_about{
+    height: 120px;
+    background-color: brown ;
+}
+
+.ilflex{
+    height: 250px;
+    width: 100%;
+    display: flex;
+}
+
+#general_container{
+    background-color: red;
+    border: solid 1px;
+    height: 100%;
+    width: 100%;
+}
+
+#my_download{
+    height: 130px;
+    background-color: lightslategray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
