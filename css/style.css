@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.my_backround{
+    background: #2C3E50;
+    padding-top: 25px;
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    text-align: center;
+}
+
+.my_color{
+    background-color: #fff;
+    border: solid 1px black;
+    height: 80%;
+}
+
+.my-color-main{
+    background-color: #1ABC9C;
+    height: 600px;
+}
+
+.my_flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
