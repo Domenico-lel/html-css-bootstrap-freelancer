@@ -47,7 +47,6 @@
     width: 70%;
     margin: 0 auto;
     background-color: violet;
-    padding: 15px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -56,7 +55,6 @@
 #scritta-portfolio, #scritta-about{
     height: 120px;
     width: 100%;
-    background-color:brown;
 }
 .my_center{
     margin: 0 auto;
@@ -96,7 +94,6 @@
 
 .my_about{
     height: 120px;
-    background-color: brown ;
 }
 
 .ilflex{
